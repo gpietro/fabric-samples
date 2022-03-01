@@ -138,7 +138,7 @@ services:
 
   cli:
     container_name: cli
-    image: hyperledger/fabric-tools:latest
+    image: hyperledger/fabric-tools:2.4
     labels:
       service: hyperledger-fabric
     tty: true

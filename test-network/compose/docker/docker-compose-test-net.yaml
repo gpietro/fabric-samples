@@ -33,6 +33,6 @@ services:
   
   cli:
     container_name: cli
-    image: hyperledger/fabric-tools:latest
+    image: hyperledger/fabric-tools:2.4
     volumes:
       - ./docker/peercfg:/etc/hyperledger/peercfg
